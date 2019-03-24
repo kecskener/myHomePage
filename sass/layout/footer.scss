@@ -1,0 +1,33 @@
+.footer{
+    background-image: linear-gradient(to right top, #050542, #06124a, #0b1b52, #11255a, #172e61, #142f5c, #122f57, #132f52, #0e263f, #0c1d2d, #0a141c, #030507);
+    width: 100%;
+    height: 300px;
+    margin-top: 88rem;
+    position: relative;
+    &__content{
+        padding: 2rem;
+        display: block;     
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        height: auto;      
+        &-text{
+         padding: 10px;
+         font-size: 40px;
+         font-family: 'Roboto', sans-serif;
+         cursor: pointer;
+         transition: all 1s;
+         a:hover{
+            background-color: #3e92cc;
+            opacity: 0.6;
+            border-radius: 23px 23px 23px 23px;
+         }
+        }
+        &-logo{
+          height: 15rem;
+          width: 15rem;
+          border-radius: 10rem;
+          overflow: hidden;
+        }
+    }
+}

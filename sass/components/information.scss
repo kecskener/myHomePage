@@ -1,0 +1,43 @@
+
+.information{
+    height: 500px;
+    width: 100%;
+    position: relative;
+    
+
+      &__content{
+    border-radius: 14%;
+    box-shadow: 0 3px 12px black;
+    transition: all .8s;
+    background-color: #8ddbe0;
+    width:30%;
+    font-family: 'Staatliches', cursive;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    &:hover{
+        transform: scale(1.02) translate(-50%,-50%);
+        box-shadow: 0 5px 15px black;
+       }
+       &-name{
+        text-align: center;
+        color: black;
+        font-size: 15px;
+    }
+    
+     &-description{
+        text-align: center;
+        color: #2978a0;
+        font-size: 10px;
+        padding: 5%;
+       }
+       &-button{
+        width: 300px;
+        height: 90px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        text-align: center;
+      }
+   }
+}

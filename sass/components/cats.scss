@@ -1,0 +1,17 @@
+.buyCatsDiv{
+    width: 80%;
+    transition: all .5s;
+    margin: 0 auto;
+    transform: rotateX(30deg);
+    &:hover{
+        transform: skewY(20deg);
+        transform: skewX(-20deg);
+     }
+     
+     &__content{
+         font-size: 40px;
+         text-align: center;
+         animation-name: toLeft;
+         animation-duration: 3s;
+     }
+ }

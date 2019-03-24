@@ -1,0 +1,29 @@
+.bottom__card{
+    margin-top: -33rem;
+    background-color: #84bc9c;
+    height: 580px;
+    padding: 7rem;
+    flex-basis: 18%;
+    border-radius: 3%;
+    transition: all 1s;
+    box-shadow: 0 1px 10px black;
+    transform: scale(1.01);
+    &:hover{
+        transform: scale(1.04) scale(1.01);
+        box-shadow: 0 2px 12px black;
+    }
+    
+    &-icon{
+       width: 60%;
+       height: 19%;
+       margin-left: 30px;
+       margin-top: -40px;
+       padding: 9px;
+    }
+
+    &-description{
+        width: 100%;
+        text-align: center;
+        font-size: 10px;
+    }
+}

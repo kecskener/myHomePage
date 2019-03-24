@@ -1,0 +1,38 @@
+
+.button{
+    background-color: #2d5d7b;
+    border: none;
+    text-decoration: none;
+    color: #2978a0;
+    font-size: 25px;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    border-radius: 84px 87px 84px 96px;
+    transition: all .5s;
+    
+    &__btnsc{   
+        width: 80%;
+        height: 50%;
+        top: 50%;
+        left:50%;
+        text-align: center;
+        font-size: 30px;
+        position: absolute;
+        transform: translate(-50%,-50%);
+        &:hover{
+            transform: translate(-50%,-50%) scale(1.2);  
+            cursor: pointer; 
+            
+        }                 
+            
+    }
+    
+    &__hvr:hover{
+    transform: scale(1.02);
+    box-shadow: 0 3px 10px black;
+    }
+}
+
+
+

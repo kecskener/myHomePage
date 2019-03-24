@@ -1,0 +1,26 @@
+.header{
+    background-image: linear-gradient(to right bottom,rgba(22,44,53,.8),rgba(65, 37, 139, 0.1)), url(../img/hj-hed.jpg);
+    height: 500px;
+     -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 60%);
+     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 60%);
+     position: relative;
+    &__content{
+        top: 35%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        position: absolute;
+        margin-top: 4rem auto;
+        h2{
+            color: #2978a0;
+            font-size: 30px;
+            text-align: center;
+        }
+
+        h1{
+            color: #2978a0;
+            font-size: 60px;
+            animation-name: bublleUp;
+            animation-duration: 4s;
+        }
+    }
+}
